@@ -1,0 +1,8 @@
+#services .ser-item {
+  flex-basis: 45%;
+  flex-direction: column;
+}
+
+#services .ser-item img {
+  margin-bottom: 1rem;
+}

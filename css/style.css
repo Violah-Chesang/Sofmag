@@ -1,0 +1,206 @@
+/* Start Global */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Lovelo;
+  src: url(../fonts/Lovelo\ Black.otf);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Start Utility classes */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  width: 95%;
+  max-width: 1170px;
+  margin: auto;
+  height: 100%;
+}
+
+ .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-gr {color: #503ef0;}
+
+.lg-heading {
+  font-size: 2.5rem;
+  margin: 0.5rem auto;
+}
+
+.bg-dark {
+  background-color: #333; 
+  color: #fff;}
+
+.bg-light {background-color: #f4f4f4;}
+
+hr {border-color: #503ef0; 
+  width: 150px; 
+  margin-bottom: 1rem;
+}
+
+p {line-height: 1.6rem; font-size: 18px; margin-top: 1rem;}
+
+.px-2 {padding: 2rem 0;}
+.py-1 {padding: 0 1rem;}
+
+
+/*Start Navbar*/
+#navbar {
+  top: 0;
+  position: sticky;
+  z-index: 1;
+  font-family: Lovelo, sans-serif;
+}
+
+#navbar-logo a {font-size: 2.5rem;}
+
+#navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#navbar ul li {
+  list-style: none;
+  margin-top: 0.25rem;
+}
+
+#navbar ul li a {
+  padding: 0.5rem;
+  margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+  background-color: #503ef0;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
+
+/* Showcase */
+.showcase {
+  background: #333 url(../images/bg3.jpg) no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+.showcase .flex {
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 .75rem;
+  background-color: rgba(0,0,0,.5);
+}
+
+.btn-gr {
+  border-radius: 5px;
+  border: none;
+  background-color: #503ef0;
+  padding: .25rem .50rem;
+  margin-top: 1rem;
+}
+
+.btn-gr:hover {
+  background-color: #08023d;
+  transition-duration: 0.5s;
+}
+
+/* Start About */
+
+#about {min-height: 200px;}
+#about .container .flex {
+  flex-direction: column;
+  height: 100%;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+/* about founder */
+#about .container .founder{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.founder h2{
+  margin-bottom: 50px;
+}
+/* columns */
+.col1, .col2{
+  flex-basis: 47%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+/* Start Services */
+#services {
+  min-height: 600px;
+  background-color: #E0E0E0;
+  color: #000;
+}
+
+.bg-dark h1{
+  text-align: center;
+}
+
+#services .flex {
+  padding: .5rem;
+  justify-content: space-between;
+}
+
+#services .ser-item {
+  display: flex;
+  flex-basis: 48%;
+  text-align: center;
+  padding: 10px;
+  margin: 1rem 0;
+}
+
+#services .ser-logo {
+ align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+#services .ser-logo img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  background-color: #2905f5;
+  border-radius: 60%;
+  padding: .25rem;
+  box-shadow: 0 0 2px 1px;
+  box-sizing: unset;
+}
+
+.table th{
+  padding: 20px;
+}
+
+.table tr{
+  width: 400px;
+  text-align: left;
+}
+.table h3{
+  text-align: left;
+  padding-left: 20px;
+}
